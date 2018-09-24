@@ -1,0 +1,221 @@
+body {
+  background-image: url('../img/redbricks.jpg');
+  background-size: 100%;
+  color: white;
+}
+
+.coupon-1{
+  background-image: url('../img/largespecial.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:.9;
+}
+
+.coupon-2{
+  background-image: url('../img/smallspecial.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:.9;
+}
+
+.coupon-3{
+  background-image: url('../img/2larges.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:.9;
+}
+
+.coupon-4{
+  background-image: url('../img/sunday.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:.9;
+}
+
+.coupon-5{
+  background-image: url('../img/monday.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:.9;
+}
+
+.coupon-6{
+  background-image: url('../img/tuesday.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity:.9;
+}
+
+
+
+.specials{
+  margin: 10px;
+  background: black;
+  color: white;
+  opacity:.7;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px red;
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: black;
+  color: white;
+}
+ul {
+  margin: 0;
+}
+li {
+  display: inline;
+}
+
+.nav-links {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.nav-links:hover {
+  background: white;
+  text-decoration: none;
+  color: red;
+}
+.logo {
+  height: 150px;
+  width: 600px;
+  border-radius: 10px;
+}
+p {
+  margin: 0;
+}
+.address {
+  margin: auto 40px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  padding: 5px 50px;
+  border-radius: 45px;
+  opacity: 0.7;
+}
+footer {
+  height: 30px;
+  border: 2px black solid;
+  width: 100%;
+  background: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+main {
+  height: 500px;
+  border: 2px white solid;
+  width: 100%;
+}
+aside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.special-container {
+  height: 300px;
+  border: 2px black dotted;
+  width: 300px;
+  border-radius: 14px;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+}
+.carousel-caption {
+  text-shadow: 2px 2px black;
+}
+
+@media (max-width: 600px) {
+  body {
+    background: blue;
+  }
+}
+
+.cat-container{
+  display:flex;
+  justify-content: center;
+}
+.space{
+margin: 20px;
+}
+
+.menu-cats{
+  margin: 5px;
+  background: black;
+  color: white;
+  opacity:1;
+  width: 100%;
+  text-align: center;
+  text-shadow: 2px 2px red;
+  border: 1px red solid;
+  border-radius: 10px;
+}
+.menu-cats:hover{
+  background: red;
+
+}
+.contact{
+  background: rgb(0, 0, 0);
+  opacity: .9;
+  margin: 50px;
+  width:100%;
+  text-align: center;
+  text-decoration: none;
+}
+.contact a{
+  color: white;
+  text-decoration: none;
+}
+
+.contact a:hover{
+  color: red;
+  text-decoration: none;
+}
+.catering-menu{
+  background:tan;
+  background-image: url('../img/catering-bg.jpg');
+  margin: 10px;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  
+}
+.google{
+  margin: 10px;
+}
